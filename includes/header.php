@@ -11,6 +11,7 @@
 
     <!--  LInk Custom CSS stylesheet -->
     <link rel="stylesheet" href="temp/css/style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="../temp/img/sdeli_favicon.jpg"/>
   </head>
   <body>
 
@@ -30,16 +31,13 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item pull-right">
-        <a class="nav-link" href="#">Mission</a>
+        <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="https://www.s-deli.org/contact-us/" target="_blank">Contact Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Donate</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary" href="#">Add School</a>
+        <a class="nav-link btn btn-primary" href="#add-school">Add School</a>
       </li>
     </ul>
   </div>
