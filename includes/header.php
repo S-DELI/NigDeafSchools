@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+require_once('config.php');
+?>
 <html lang="en">
   <head>
     <title>Directory of Schools for the Deaf in Nigeria</title>
