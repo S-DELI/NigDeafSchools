@@ -96,56 +96,58 @@ include_once'includes/header.php';
       <thead>
         <tr>
           <th>Name of School</th>
-          <th>Type</th>
           <th>Address</th>
-          <th>Year Founded</th>
+          <th>Type</th>
+          <th>Ownership</th>
+          <th>Level</th>
         </tr>
       </thead>
 
-      <thead>
-        <tr>
-          <th colspan="4">Abia</th>
+      
+	  
+	  
+	  <?php
+$fetchSchools = "SELECT * FROM school";
+$schoolQuery = $conn->query($fetchSchools);
+global $schoolLevel;
+while($schoolData = $schoolQuery->fetch_assoc()){
+	if($schoolData['sch_level'] == "NP"){
+		$schoolLevel = "Nursery/Primay";
+	}elseif($schoolData['sch_level'] == "P"){
+		$schoolLevel = "Primary";
+	}elseif($schoolData['sch_level'] == "S"){
+		$schoolLevel = "Secondary";
+	}elseif($schoolData['sch_level'] == "NPS"){
+		$schoolLevel = "Nursery/Primary/Secondary";
+	}elseif($schoolData['sch_level'] == "JS"){
+		$schoolLevel = "Junior Secondary";
+	}elseif($schoolData['sch_level'] == "C"){
+		$schoolLevel = "College";
+	}elseif($schoolData['sch_level'] == "SS"){
+		$schoolLevel = "Senior Secondary";
+	}elseif($schoolData['sch_level'] == "PS"){
+		$schoolLevel = "Primary/Secondary";
+	}
+	if($schoolData['sch_ownership'] == 0){
+		$schoolOwnership = "Private";
+	}else{
+		$schoolOwnership = "Public";
+	}
+	echo
+	"<tr>
         </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td> 1. Special Education Center for the Deaf, Abia</td>
-          <td> Specialized</td>
-          <td> </td>
-          <td> </td>
-        </tr>
-      </tbody>
+          <td>".$schoolData['sch_name']."</td>
+		  <td>".$schoolData['sch_address']."</td>
+          <td>".$schoolData['sch_type']."</td>
+          <td>".$schoolOwnership."</td>
+		  <td>".$schoolLevel."</td>
+        </tr>";
+		
+	}
 
-      <thead>
-        <tr>
-          <th colspan="4">Abuja</th>
-      </thead>
-      <tbody>
-        <tr>
-        </tr>
-          <td> 1. Special School for the Deaf, Kuje</td>
-          <td> Specialized, Pri., Public </td>
-          <td> Kuje, Abuja</td>
-          <td> </td>
-        </tr>
-        <tr>
-          <td> 2. Junior Secondary School, Pasali</td>
-          <td> Mainstream, Junior Sec, public </td>
-          <td> Kuje, Abuja</td>
-          <td> </td>
-        </tr>
-        <tr>
-          <td> 3. Government Secondary School, Kuje</td>
-          <td> Mainstream, Senior Sec, Public </td>
-          <td> Kuje, Abuja</td>
-          <td> </td>
-        </tr>
-        <tr>
-          <td> 4. Stella Obasanjo, Child Care Trust for the Deaf and LD</td>
-          <td> Private, Primary, Inclusive  </td>
-          <td> Kuje, Abuja</td>
-          <td> </td>
-        </tr>
+
+?>
+     
       </tbody>
 
     </table>
