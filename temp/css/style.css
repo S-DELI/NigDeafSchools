@@ -58,35 +58,15 @@ header h1{
   color: #fff;
 }
 
+header .sub-h1{
+  font-size: 1.2em;
+  font-style: italic;
+}
+
 .input-group{
   margin: 1.5em auto;
 }
 
-.form .form-control{
-  width: 30em;
-  height: 3em;
-  background-color: transparent;
-  color: #fff;
-}
-
-.form .intput-group-text{
-  width: 8em;
-  height: 3em;
-}
-
-@media all and (max-width: 768px) {
-  .form .form-control{
-    width: 20em;
-    height: 3em;
-    background-color: transparent;
-    color: #fff;
-  }
-
-  .form .intput-group-text{
-    width: 6em;
-    height: 3em;
-  }
-}
 
 .content .arrow{
   margin: 9em auto;
@@ -114,6 +94,20 @@ header h1{
 .about .collapse{
   margin-top: 20px;
 }
+
+
+/*--------------Styles for school table section -------*/
+.table-div hr{
+      display: block;
+      border-style: inset;
+      border-width: 1px;
+      width: 18em;
+      border-color: #007bff;
+      margin: 5px auto;
+
+}
+
+
 
 /*------------------ Styles for Add School Form --------*/
 #add-school{

@@ -8,18 +8,8 @@ include_once'includes/header.php';
     <div class="overlay">
     </div>
     <div class="content">
-      <h1>A Directory of Schools for the Deaf in Nigeria</h1>
-      <div class="form">
-        <form class="form-inline">
-          <label class="sr-only">Search School</label>
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Type Name of School or Location" autofocus required />
-            <div class="input-group-append">
-              <button class="intput-group-text btn btn-primary">Search</button>
-            </div>
-          </div>
-        </form>
-      </div>
+      <h1>A Directory of Schools for the Deaf in Nigeria </h1>
+        <span class="sub-h1">Compiled by the Save the Deaf and Endangered Languages Initiative (S-DELI)</span>
       <div class="arrow text-center">
         <a class="fa fa-angle-double-down fa-2x" href="#about" title="Read more"></a>
       </div>
@@ -39,7 +29,7 @@ include_once'includes/header.php';
         <h2>About the Directory</h2>
         <hr />
         <p>
-          When we started our community engagement outreaches in Nigerian deaf community late 2013, we wanted to know how many schools for the Deaf in the country as to know how much work we had to do. We searched the internet, and all other sources we hoped to get an answer, but to no avail. The closest information we got was a publication by Excellence and Education Network, with about 22 schools represented. We found out that the 3 schools where we started our project were not represented on the publication, we concluded that the publication could not be a comprehensive one.
+          When we started our community engagement outreaches in the Nigerian deaf community late 2013, we wanted to know how many schools for the Deaf in the country as to know how much work we had to do. We searched the internet, and all other sources we hoped to get an answer, but to no avail. The closest information we got was a publication by Excellence and Education Network, with about 22 schools represented. We found out that the 3 schools where we started our project were not represented on the publication, we concluded that the publication could not be a comprehensive one.
         </p>
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#about-collapse" aria-expanded="false" aria-controls="about-collapse">Read more</button>
       </div>
@@ -91,61 +81,24 @@ include_once'includes/header.php';
 </section>
 
 <section id="directory">
-  <div class="container">
-    <table class="table table-bordered table-striped">
+  <div class="table-div container table-responsive">
+    <h2 class="text-center">Schools for the Deaf in Nigeria</h2>
+    <hr class="sch-hr" />
+    <table id="table" class="display table table-striped table-bordered">
       <thead>
         <tr>
-          <th>Name of School</th>
-          <th>Type</th>
-          <th>Address</th>
-          <th>Year Founded</th>
+          <th> Serial </th>
+          <th> School Name </th>
+          <th> Adress </th>
+          <th> Type </th>
+          <th> Ownership </th>
+          <th> Level </th>
+          <th> State </th>
+          <th> Visibility </th>
         </tr>
-      </thead>
-
-      <thead>
-        <tr>
-          <th colspan="4">Abia</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td> 1. Special Education Center for the Deaf, Abia</td>
-          <td> Specialized</td>
-          <td> </td>
-          <td> </td>
-        </tr>
-      </tbody>
-
-      <thead>
-        <tr>
-          <th colspan="4">Abuja</th>
       </thead>
       <tbody>
-        <tr>
-        </tr>
-          <td> 1. Special School for the Deaf, Kuje</td>
-          <td> Specialized, Pri., Public </td>
-          <td> Kuje, Abuja</td>
-          <td> </td>
-        </tr>
-        <tr>
-          <td> 2. Junior Secondary School, Pasali</td>
-          <td> Mainstream, Junior Sec, public </td>
-          <td> Kuje, Abuja</td>
-          <td> </td>
-        </tr>
-        <tr>
-          <td> 3. Government Secondary School, Kuje</td>
-          <td> Mainstream, Senior Sec, Public </td>
-          <td> Kuje, Abuja</td>
-          <td> </td>
-        </tr>
-        <tr>
-          <td> 4. Stella Obasanjo, Child Care Trust for the Deaf and LD</td>
-          <td> Private, Primary, Inclusive  </td>
-          <td> Kuje, Abuja</td>
-          <td> </td>
-        </tr>
+
       </tbody>
 
     </table>
