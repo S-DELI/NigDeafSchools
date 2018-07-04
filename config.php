@@ -3,8 +3,8 @@ class Database
 {
   private $host = 'localhost';
   private $dbname = 'deafsearch';
-  private $username = 'rooot';
-  private $pass = '';
+  private $username = 'orodo2';
+  private $pass = '@orlu=orodo2018';
   public $conn;
 
   public function dbConnect()

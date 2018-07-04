@@ -19,7 +19,7 @@ $mysql_data = array();
 if($table != ''){
 //On load request connect to db using PDO
 try {
-  $db_connection = new PDO('mysql:host=localhost;dbname=deafsearch', 'root', 'noble555666888', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''));
+  $db_connection = new PDO('mysql:host=localhost;dbname=deafsearch', 'orodo2', '@orlu=orodo2018', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''));
 } catch (Exception $e) {
   $result = 'error';
   $message = 'Failed to connect to database';
