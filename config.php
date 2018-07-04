@@ -2,8 +2,8 @@
 class Database
 {
   private $host = 'localhost';
-  private $dbname = 'deafsearch';
-  private $username = 'orodo2';
+  private $dbname = 'afriklib_deafsearch';
+  private $username = 'afriklib_orodo2';
   private $pass = '@orlu=orodo2018';
   public $conn;
 
