@@ -9,7 +9,7 @@ include_once'includes/header.php';
     </div>
     <div class="content">
       <h1>A Directory of Schools for the Deaf in Nigeria </h1>
-        <span class="sub-h1">Compiled by the Save the Deaf and Endangered Languages Initiative (S-DELI)</span>
+        <span class="sub-h1">Compiled by Save the Deaf and Endangered Languages Initiative (S-DELI)</span>
       <div class="arrow text-center">
         <a class="fa fa-angle-double-down fa-2x" href="#about" title="Read more"></a>
       </div>
@@ -47,10 +47,10 @@ include_once'includes/header.php';
           <dt> Specialized </dt>
           <dd> Schools that have only deaf students – may be residential or non-residential. </dd>
 
-          <dt> Specialized </dt>
+          <dt> Inclusive </dt>
           <dd> Schools that have only deaf students – may be residential or non-residential. </dd>
 
-          <dt> Specialized </dt>
+          <dt> Mainstream </dt>
           <dd> Schools that have only deaf students – may be residential or non-residential. </dd>
         </dl>
 
