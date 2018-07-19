@@ -7,8 +7,9 @@
     </div>
     <div class="social-icons flex">
       <span> Connect via </span>
-      <a class="fab fa-facebook" href="#" title="facebook" aria-hidden="true" ></a>
-      <a class="fab fa-twitter" href="#" title="twitter" aria-hidden="true"></a>
+      <a class="fab fa-facebook" href="https://www.facebook.com/Sdeli.org/" title="facebook" aria-hidden="true" ></a>
+      <a class="fab fa-twitter" href="https://twitter.com/NaijaDeafTalent" title="twitter" aria-hidden="true"></a>
+      <a class="fab fa-youtube" href="https://www.youtube.com/channel/UCP0M0nRxbC9Cf7aw4O8ZKiQ" title="twitter" aria-hidden="true"></a>
     </div>
   </div>
 </footer>
