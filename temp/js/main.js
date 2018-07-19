@@ -8,8 +8,7 @@ $("#table").dataTable({
       {"data": "type"},
       {"data": "ownership"},
       {"data": "level"},
-      {"data": "state"},
-      {"data": "visibility"}
+      {"data": "state"}
     ],
     "lengthMenu": [[20, 50, 100], [20, 50, 100]]
   });

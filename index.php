@@ -48,10 +48,10 @@ include_once'includes/header.php';
           <dd> Schools that have only deaf students – may be residential or non-residential. </dd>
 
           <dt> Inclusive </dt>
-          <dd> Schools that have only deaf students – may be residential or non-residential. </dd>
+          <dd> Schools that have deaf students and students with other disabilities. </dd>
 
           <dt> Mainstream </dt>
-          <dd> Schools that have only deaf students – may be residential or non-residential. </dd>
+          <dd> Schools that have deaf and hearing students, but most times, the deaf students have separate classes.</dd>
         </dl>
 
         <p>
@@ -94,7 +94,6 @@ include_once'includes/header.php';
           <th> Ownership </th>
           <th> Level </th>
           <th> State </th>
-          <th> Visibility </th>
         </tr>
       </thead>
       <tbody>

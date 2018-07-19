@@ -46,8 +46,7 @@ if($table == 'get_schools'){
         'type' => $row['sch_type'],
         'ownership' => $row['sch_ownership'],
         'level' => $row['sch_level'],
-        'state' => $row['sch_state'],
-        'visibility' => $row['sch_visibility']
+        'state' => $row['sch_state']
       );
     }
   }
