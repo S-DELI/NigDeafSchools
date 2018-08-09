@@ -27,16 +27,20 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
   $subject = 'Add New School for the Deaf';
 
-  $email_content = "Name: $name\n";
-  $email_content .= "State: $state\n\n";
-  $email_content .= "School Type: $schoolType\n\n";
-  $email_content .= "Ownership: $ownership\n\n";
-  $email_content .= "Address: $address\n\n";
-  $email_content .= "Year: $year\n\n";
-  $email_content .= "Contact: $contact\n\n";
+  $email_content = "Name: $name\r\n";
+  $email_content .= "State: $state\r\n";
+  $email_content .= "School Type: $schoolType\r\n";
+  $email_content .= "Ownership: $ownership\r\n";
+  $email_content .= "Address: $address\r\n";
+  $email_content .= "Year: $year\r\n";
+  $email_content .= "Contact: $contact";
+
 
   //Build the email headers
-  $email_headers = "From: $name <linkafrik2@gmail.com>";
+  $email_headers = 'From: schools@schoolsforthedeaf.org.ng' . "\r\n" .
+                    'Reply-To: info@afriknet.com' . "\r\n" .
+                    'X-Mailer: PHP/' .phpversion();
+
 
   //Send the email
   if(mail($recipient, $subject, $email_content, $email_headers)){
