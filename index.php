@@ -112,7 +112,7 @@ include_once'includes/header.php';
     <div class="form-div">
       <div class="form-label-group">
         <input type="text" name="schoolName" id="schoolName" class="form-control" placeholder="Name of School" required  />
-        <label for="name-of-school">Name of School</label>
+        <label for="schoolName">Name of School</label>
       </div>
 
       <div class="form-label-group">

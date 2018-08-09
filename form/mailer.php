@@ -1,5 +1,6 @@
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
+  if(isset($_POST['add-school'])){
   //Get the form data and remove the white space
 
   $name = strip_tags(trim($_POST['schoolName']));
@@ -52,4 +53,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
   // NOT a POST request, set a 403 forbidden response code.
   http_response_code(403);
   echo 'There was a problem with your submission, please try again later.';
+}
 }
