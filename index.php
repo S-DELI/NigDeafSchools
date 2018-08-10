@@ -105,7 +105,7 @@ include_once'includes/header.php';
 </section>
 
 <section id="add-school">
-  <form class="add-school-form" method="POST" id="add-school" action="form/mailer.php">
+  <form class="add-school-form" method="POST" id="add-school" action="form/mail.php">
       <div class="text-center mb-4">
         <h2>Add School</h2>
       </div>

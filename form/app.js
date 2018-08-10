@@ -14,7 +14,7 @@ $(function(){
 
     $.ajax({
       type: "POST",
-      url: 'form/mailer.php',
+      url: 'form/mail.php',
       data: formData
     })
 
