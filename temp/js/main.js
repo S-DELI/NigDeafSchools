@@ -10,7 +10,7 @@ $("#table").dataTable({
       {"data": "level"},
       {"data": "state"}
     ],
-    "lengthMenu": [[20, 50, 100], [20, 50, 100]]
+    "lengthMenu": [[50, 100, 200], [50, 100, 200]]
   });
 
 })
