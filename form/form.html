@@ -1,0 +1,55 @@
+<form class="add-school-form" method="POST" id="add-school" action="form/mail.php">
+    <div class="text-center mb-4">
+      <h2>Add School</h2>
+    </div>
+  <div class="form-div">
+    <div class="form-label-group">
+      <input type="text" name="schoolName" id="schoolName" class="form-control" placeholder="Name of School" required  />
+      <label for="schoolName">Name of School</label>
+    </div>
+
+    <div class="form-label-group">
+      <input type="text" name="state" id="state" class="form-control" placeholder="State" required />
+      <label for="state">State</label>
+    </div>
+
+    <div class="form-group">
+      <select required name="schoolType" class="custom-select" id="schoolType">
+        <option selected disabled>Select school type</option>
+        <option value="1">Specialized</option>
+        <option value="2">Inclusive</option>
+        <option value="3">Mainstream</option>
+      </select>
+   </div>
+
+   <div class="form-group">
+     <select required name="ownership" class="custom-select" id="ownership">
+       <option selected disabled>Select school ownership</option>
+       <option value="1">Public</option>
+       <option value="2">Private</option>
+     </select>
+  </div>
+
+  <div class="form-label-group">
+    <input type="text" name="address" id="address" class="form-control" placeholder="Address|Location" required />
+    <label for="address">Address</label>
+  </div>
+
+  <div class="form-label-group">
+    <input type="text" name="year" id="year" class="form-control" placeholder="Year Founded"  />
+    <label for="year">Year Founded</label>
+  </div>
+
+    <div class="form-label-group">
+      <input type="text" name="contact" id="contact" class="form-control" placeholder="Contact" />
+      <label for="contact">Your contact email or phone number</label>
+    </div>
+
+    <div id="form-message">
+
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+
+  </div>
+</form>

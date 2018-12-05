@@ -68,12 +68,6 @@ include_once'includes/header.php';
         <p>
           We acknowledge all persons that provided us with information about the schools published on this directory. We may not mention you by names, but we appreciate you so much. We would also need your assistance as we seek to complete the directory to contain all schools with other details this directory will contain. We are a team in this! Thank you! Great thanks too, to the IT Department who worked night and day to publish this material, and the entire Team S-DELI for their supports.
         </p>
-        <p>
-          <small>Emma Asonye, PhD. </br>
-          Head of Project, Global
-        </small>
-
-        </p>
       </div>
 
     </div>
@@ -105,61 +99,10 @@ include_once'includes/header.php';
 </section>
 
 <section id="add-school">
-  <form class="add-school-form" method="POST" id="add-school" action="form/mail.php">
-      <div class="text-center mb-4">
-        <h2>Add School</h2>
-      </div>
-    <div class="form-div">
-      <div class="form-label-group">
-        <input type="text" name="schoolName" id="schoolName" class="form-control" placeholder="Name of School" required  />
-        <label for="schoolName">Name of School</label>
-      </div>
-
-      <div class="form-label-group">
-        <input type="text" name="state" id="state" class="form-control" placeholder="State" required />
-        <label for="state">State</label>
-      </div>
-
-      <div class="form-group">
-        <select required name="schoolType" class="custom-select" id="schoolType">
-          <option selected disabled>Select school type</option>
-          <option value="1">Specialized</option>
-          <option value="2">Inclusive</option>
-          <option value="3">Mainstream</option>
-        </select>
-     </div>
-
-     <div class="form-group">
-       <select required name="ownership" class="custom-select" id="ownership">
-         <option selected disabled>Select school ownership</option>
-         <option value="1">Public</option>
-         <option value="2">Private</option>
-       </select>
+<div class="text-center mb-4">
+      <h2>Add a New School</h2>
     </div>
-
-    <div class="form-label-group">
-      <input type="text" name="address" id="address" class="form-control" placeholder="Address|Location" required />
-      <label for="address">Address</label>
-    </div>
-
-    <div class="form-label-group">
-      <input type="text" name="year" id="year" class="form-control" placeholder="Year Founded"  />
-      <label for="year">Year Founded</label>
-    </div>
-
-      <div class="form-label-group">
-        <input type="text" name="contact" id="contact" class="form-control" placeholder="Contact" />
-        <label for="contact">Your contact email or phone number</label>
-      </div>
-
-      <div id="form-message">
-
-      </div>
-
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
-
-    </div>
-  </form>
+<div class="typeform-widget" data-url="https://yali-imo.typeform.com/to/lVW5xf" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> 
 </section>
 
 <?php
