@@ -11,9 +11,11 @@ require_once('config.php');
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Custom font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
     <!--  LInk Custom CSS stylesheet -->
     <link rel="stylesheet" href="temp/css/style.css" />
+    <link rel="stylesheet" href="temp/css/formstyle.css">
     <link rel="shortcut icon" type="image/jpg" href="../temp/img/sdeli_favicon.jpg"/>
   </head>
   <body>
