@@ -1,0 +1,55 @@
+.cos-fill{
+    -webkit-transition: all 1s !important;
+    transition: all 1s !important;
+    box-shadow: 0px 0px 3px #dc3545;
+  }
+  .cos-fill:hover{
+      box-shadow: 0px 0px 7px #dc3545;
+  }
+
+
+  .in-fill, .in-fill:focus{
+    border: none !important;
+    box-shadow: none !important;
+    padding-left: 2px;
+    font-weight: 300;
+    /* color:#0099cc; */
+    /* text-align: center; */
+    /* background: white !important; */
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius:  5px !important;
+  }
+  .in-fill:focus{
+    background:white !important;
+
+
+  }
+  .regFormDesign{
+  /* border-radius: 20px; */
+  width: 35%;
+  box-shadow: 0px 0px 15px rgba(0,0 , 200, 0.2);
+}
+
+@media screen and (max-width: 1200px){
+  .regFormDesign{
+    width: 45% ;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .regFormDesign{
+    width: 50% ;
+  }
+}
+
+@media screen and (max-width: 768px){
+   .regFormDesign{
+     width: 60%;
+   }
+}
+
+@media screen and (max-width:   576px){
+   .regFormDesign{
+     width: 90%;
+   }
+}
