@@ -1,8 +1,8 @@
+      <!--includes the header file-->
       <?php
-
-          include_once "header.php";
-
+          include_once "include/header.php";
        ?>
+
        <br><br>
      <center>
 
@@ -124,5 +124,6 @@
 
      </center>
 
-  </body>
-</html>
+ <?php 
+    include_once "include/footer.php";
+?>
